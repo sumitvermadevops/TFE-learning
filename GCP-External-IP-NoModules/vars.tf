@@ -1,6 +1,6 @@
 variable  "project_id"  {
     type = string
-    default = "gcplearn-362301"
+    default = ""
 }
 
 variable  "region"  {
@@ -19,7 +19,7 @@ variable "vm_name" {
 }
 
 variable "network_name" {
-    default = "sumit-network"
+    default = ""
 
 }
 
@@ -28,7 +28,7 @@ variable "auto_subnetwork" {
 }
 
 variable "subnetwork_name" {
-    default = "sumit-subnetwork"
+    default = ""
 }
 
 variable "cidr_range" {
