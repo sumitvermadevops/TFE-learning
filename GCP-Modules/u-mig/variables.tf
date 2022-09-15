@@ -2,7 +2,7 @@
 variable "project_id" {
   type        = string
   description = "The ID of the project in which the resources will be provisioned."
-  default     = "gcplearn-362301"
+  default     = ""
 }
 variable "region" {
   type        = string
