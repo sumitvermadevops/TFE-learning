@@ -1,0 +1,1 @@
+#This module creates single GCP instance and 1 custom network and subnetwork
