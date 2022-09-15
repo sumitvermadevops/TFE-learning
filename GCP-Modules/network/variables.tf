@@ -2,7 +2,7 @@
 variable "project_id" {
   type        = string
   description = "The ID of the project in which the resources will be provisioned."
-  default     = "gcplearn-362301"
+  default     = ""
 }
 variable "region" {
   type        = string
@@ -38,7 +38,7 @@ variable "subnetwork_cidr" {
 variable "subnetwork_project" {
   type        = string
   description = "The project ID of the subnetwork."
-  default     = "gcplearn-362301"
+  default     = ""
 }
 
 variable "routing_mode" {
