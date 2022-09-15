@@ -59,7 +59,7 @@ variable "subnetwork_cidr" {
 variable "subnetwork_project" {
   type        = string
   description = "The project ID of the subnetwork."
-  default     = "gcplearn-362301"
+  default     = ""
 }
 
 variable "routing_mode" {
