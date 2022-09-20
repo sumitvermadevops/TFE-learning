@@ -20,7 +20,7 @@ variable "zone" {
 
 variable "project_id" {
   description = "The project to create the instance in"
-  default     = "gcplearn-362301"
+  default     = ""
 }
 
 variable "region" {
